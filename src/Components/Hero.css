@@ -3,25 +3,29 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+   
 }
 .hero-content{
-    display: flex;;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 3vh;
-
+    padding: 10vh;
+    max-width: 50%;
 }
 
 .hero-image img{
-    
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
+.hero-text{
+    padding: 5%;
+}
+.hero-text h1{
+    font-size: 40px;
+}
 
 .hero-sobre{
-    width: 50%;
+    width: 40%;
     
 }

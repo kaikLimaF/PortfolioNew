@@ -21,6 +21,9 @@ const Hero = () => {
           aspernatur tenetur aut vel, voluptate deleniti maiores quas similique
           mollitia nisi illo.
         </p>
+        
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas obcaecati iusto unde! Obcaecati nemo animi, alias sed tempore dolor eius quod ex est deleniti non ab dignissimos suscipit totam quis.
+        </p>
       </div>
     </section>
   );
