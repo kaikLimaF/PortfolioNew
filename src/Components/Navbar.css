@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 50px; /* Padding ligeiramente reduzido para menor altura */
-  background-color: rgba(37, 0, 80, 0.5); /* Fundo mais translúcido */
+  background-color: rgba(19, 0, 41, 0.5); /* Fundo mais translúcido */
   color: white;
   position: sticky; /* Navbar fixa no topo */
   top: 0;
