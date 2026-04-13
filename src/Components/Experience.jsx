@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import imgExperience from "..//img/Linguagens.png"; // Imagem representando experiência
 
 const Experience = () => {
   const programmingLanguages = ["JavaScript", "HTML", "CSS", "Java", "Python"];
@@ -9,11 +10,7 @@ const Experience = () => {
       <h2>Minha Experiência</h2>
       <div className="experience-content">
         <h3>Linguagens de Programação</h3>
-        <ul className="languages-list">
-          {programmingLanguages.map((language, index) => (
-            <li key={index}>{language}</li>
-          ))}
-        </ul>
+        <img src={imgExperience} alt="Linguagens de Programação" />
       </div>
     </section>
   );

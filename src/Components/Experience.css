@@ -50,3 +50,12 @@
   transform: translateY(-5px) scale(1.05); /* Efeito de elevação e leve escala */
   box-shadow: 0 8px 15px rgba(167, 139, 250, 0.5); /* Sombra mais intensa no hover */
 }
+
+
+.experience-content img {
+  width: 50%;
+  height: 50%;
+  margin-bottom: 15vh;
+  object-fit: contain; /* Garantir que a imagem se encaixe sem distorção */
+    
+}
