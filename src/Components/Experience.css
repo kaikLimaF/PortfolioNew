@@ -1,0 +1,52 @@
+/* Basic styling for Experience section */
+.experience-section {
+  padding: 80px 20px; /* Ajustar padding para consistência */
+  text-align: center;
+}
+
+.experience-section h2 {
+  font-size: 3rem; /* Tamanho de fonte maior */
+  margin-bottom: 40px; /* Aumentar margem inferior */
+  color: #e0e0e0; /* Cor mais clara para o título */
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5); /* Sombra sutil para o título */
+}
+
+.experience-section h3 {
+  font-size: 2rem; /* Tamanho de fonte ajustado */
+  margin-top: 40px; /* Aumentar margem superior */
+  margin-bottom: 20px; /* Ajustar margem inferior */
+  color: #a78bfa; /* Cor de destaque roxa */
+}
+
+.languages-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Permitir quebra de linha */
+  justify-content: center;
+  gap: 20px; /* Aumentar gap entre os itens */
+  margin-top: 30px; /* Adicionar margem superior */
+}
+
+.languages-list li {
+  background-color: rgba(
+    167,
+    139,
+    250,
+    0.15
+  ); /* Fundo translúcido com cor do tema */
+  color: white;
+  padding: 12px 25px; /* Aumentar padding */
+  border-radius: 25px; /* Bordas mais arredondadas (pill shape) */
+  font-size: 1.1rem; /* Usar rem para tamanho de fonte */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+  transition: all 0.3s ease; /* Transição suave para hover */
+  border: 1px solid rgba(167, 139, 250, 0.3); /* Borda sutil */
+}
+
+.languages-list li:hover {
+  background-color: #a78bfa; /* Fundo com a cor de destaque no hover */
+  color: #0d0118; /* Texto escuro no hover */
+  transform: translateY(-5px) scale(1.05); /* Efeito de elevação e leve escala */
+  box-shadow: 0 8px 15px rgba(167, 139, 250, 0.5); /* Sombra mais intensa no hover */
+}

@@ -1,0 +1,54 @@
+.projects-section {
+  padding: 80px 20px; /* Ajustar padding para consistência */
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 3rem; /* Tamanho de fonte maior */
+  margin-bottom: 40px; /* Aumentar margem inferior */
+  color: #e0e0e0; /* Cor mais clara para o título */
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5); /* Sombra sutil para o título */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px; /* Ajustar gap entre os cards */
+}
+
+.project-card {
+  display: block;
+  width: 300px;
+  padding: 25px; /* Aumentar padding interno */
+  background-color: rgba(255, 255, 255, 0.08); /* Fundo sutil mais visível */
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease; /* Adicionar transição para borda */
+  border: 1px solid rgba(255, 255, 255, 0.15); /* Borda suave mais visível */
+  backdrop-filter: blur(12px); /* Aumentar o blur */
+}
+
+.project-card:hover {
+  transform: translateY(-8px) scale(1.02); /* Efeito de elevação e leve escala */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); /* Sombra mais intensa no hover */
+  border-color: #a78bfa; /* Borda com a cor de destaque no hover */
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px; /* Ajustar margem */
+  color: #a78bfa; /* Cor de destaque (roxo claro) combinando com tema dark */
+  text-shadow: 0 0 5px rgba(167, 139, 250, 0.3); /* Sombra sutil para o título do card */
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #c0c0c0; /* Texto um pouco mais claro e legível */
+  line-height: 1.5;
+}

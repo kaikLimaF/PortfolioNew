@@ -1,0 +1,36 @@
+/* Basic styling for Contact section */
+.contact-section {
+  padding: 50px 20px 20px; /* Adjust padding for a minimal look */
+  text-align: center;
+  background-color: transparent; /* Remove background for a seamless look */
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* A very subtle separator line */
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space out the links */
+  margin-bottom: 20px; /* Space between links and copyright */
+}
+
+.contact-section li {
+  margin-bottom: 0;
+}
+
+.contact-section li a {
+  color: #b0b0b0; /* Softer link color */
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.contact-section li a:hover {
+  color: #fff; /* Brighter color on hover */
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #777; /* Dim color for copyright text */
+}
