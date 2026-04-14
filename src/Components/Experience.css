@@ -51,11 +51,23 @@
   box-shadow: 0 8px 15px rgba(167, 139, 250, 0.5); /* Sombra mais intensa no hover */
 }
 
-
 .experience-content img {
   width: 50%;
   height: 50%;
   margin-bottom: 15vh;
   object-fit: contain; /* Garantir que a imagem se encaixe sem distorção */
-    
+  animation: floatExp 5s ease-in-out infinite; /* Flutuação contínua para a imagem */
+}
+
+/* Keyframes para animação flutuante na experiência */
+@keyframes floatExp {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

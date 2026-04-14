@@ -20,24 +20,46 @@
 .project-card {
   display: block;
   width: 300px;
-  padding: 25px; /* Aumentar padding interno */
-  background-color: rgba(255, 255, 255, 0.08); /* Fundo sutil mais visível */
+  padding: 25px;
+  background-color: rgba(13, 1, 24, 0.6); /* Fundo escuro translúcido */
   border-radius: 8px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombra mais pronunciada */
   text-decoration: none;
   color: inherit;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease; /* Adicionar transição para borda */
-  border: 1px solid rgba(255, 255, 255, 0.15); /* Borda suave mais visível */
-  backdrop-filter: blur(12px); /* Aumentar o blur */
+  border: 1px solid rgba(167, 139, 250, 0.3); /* Borda sutil com cor do tema */
+  backdrop-filter: blur(
+    15px
+  ); /* Aumentar o blur para um efeito mais pronunciado */
+  overflow: hidden; /* Mantém a imagem dentro das bordas arredondadas ao dar zoom */
 }
 
 .project-card:hover {
   transform: translateY(-8px) scale(1.02); /* Efeito de elevação e leve escala */
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4); /* Sombra mais intensa no hover */
   border-color: #a78bfa; /* Borda com a cor de destaque no hover */
+  background-color: rgba(
+    167,
+    139,
+    250,
+    0.2
+  ); /* Fundo mais claro e translúcido no hover */
+}
+
+.project-card:hover h3 {
+  color: #ffffff; /* Título branco no hover para contraste */
+  text-shadow: none; /* Remover sombra do texto no hover para clareza */
+}
+
+.project-card:hover p {
+  color: #e0e0e0; /* Texto mais claro no hover para contraste */
+}
+
+.project-card:hover img {
+  transform: scale(1.1); /* Zoom suave na imagem ao passar o mouse */
 }
 
 .project-card h3 {
@@ -51,4 +73,13 @@
   font-size: 1rem;
   color: #c0c0c0; /* Texto um pouco mais claro e legível */
   line-height: 1.5;
+}
+
+.project-card img {
+  width: 100%; /* A imagem ocupa 100% da largura do card */
+  height: 180px; /* Altura fixa para as imagens */
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer, cortando se necessário */
+  border-radius: 4px; /* Bordas levemente arredondadas para a imagem */
+  margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+  transition: transform 0.5s ease; /* Transição suave para o zoom da imagem */
 }

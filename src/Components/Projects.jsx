@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import imgProject from '..//img/projeto.png'; // Imagem representando projetos
 
 const Projects = () => {
   const projectList = [
@@ -8,21 +9,21 @@ const Projects = () => {
       title: 'Projeto 1',
       description: 'Descrição breve do projeto 1.',
       link: 'https://github.com/seu-usuario/projeto1',
-      image: 'https://via.placeholder.com/300x200?text=Projeto+1', // Placeholder image
+      image: imgProject, // Placeholder image
     },
     {
       id: 2,
       title: 'Projeto 2',
       description: 'Descrição breve do projeto 2.',
       link: 'https://github.com/seu-usuario/projeto2',
-      image: 'https://via.placeholder.com/300x200?text=Projeto+2', // Placeholder image
+      image:  imgProject, // Placeholder image
     },
     {
       id: 3,
       title: 'Projeto 3',
       description: 'Descrição breve do projeto 3.',
       link: 'https://github.com/seu-usuario/projeto3',
-      image: 'https://via.placeholder.com/300x200?text=Projeto+3', // Placeholder image
+      image: imgProject, // Placeholder image
     },
   ];
 
