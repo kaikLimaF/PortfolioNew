@@ -71,3 +71,9 @@
     transform: translateY(0px);
   }
 }
+
+@media (min-width: 1024px) {
+  .experience-section {
+    margin-left: 300px;
+  }
+}

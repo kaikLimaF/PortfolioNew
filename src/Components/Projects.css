@@ -83,3 +83,9 @@
   margin-bottom: 15px; /* Espaçamento abaixo da imagem */
   transition: transform 0.5s ease; /* Transição suave para o zoom da imagem */
 }
+
+@media (min-width: 1024px) {
+  .projects-section {
+    margin-left: 300px;
+  }
+}

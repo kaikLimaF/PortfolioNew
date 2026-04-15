@@ -148,3 +148,25 @@ html {
   opacity: 1;
   visibility: visible;
 }
+
+/* Para telas maiores (desktop), o menu lateral ficará sempre visível */
+@media (min-width: 1024px) {
+  .hamburger,
+  .overlay {
+    display: none;
+  }
+
+  .navbar {
+    width: calc(100% - 300px);
+
+  }
+
+  .nav-links {
+    left: 0;
+  }
+
+  .nav-links li {
+    opacity: 1;
+    transform: none;
+  }
+}

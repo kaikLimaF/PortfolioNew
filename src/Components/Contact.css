@@ -23,7 +23,7 @@
   color: #b0b0b0; /* Softer link color */
   text-decoration: none;
   font-size: 1rem;
-  display: inline-block; /* Necessário para a animação de transform funcionar */
+      display: inline-block; /* Necessário para a animação de transform funcionar */
   transition:
     color 0.3s ease,
     transform 0.3s ease; /* Transição para cor e posição */
@@ -37,4 +37,10 @@
 .copyright {
   font-size: 0.9rem;
   color: #777; /* Dim color for copyright text */
+}
+
+@media (min-width: 1024px) {
+  .contact-section {
+    margin-left: 300px;
+  }
 }
