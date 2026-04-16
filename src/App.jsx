@@ -5,14 +5,16 @@ import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import Contact from "./Components/Contact";
+import Sobre from "./Components/Sobre";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Projects />
+      <Sobre />
       <Experience />
+      <Projects />
       <Contact />
     </div>
   );

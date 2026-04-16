@@ -6,7 +6,7 @@
   position: relative; /* Necessário para o posicionamento do overlay */
   min-height: 100vh; /* Garante que a seção ocupe toda a altura da tela */
   /* Substitua pelo caminho da sua imagem na pasta 'public' */
-  background-image: url("../img/aeu.jpeg");
+  background-image: url("../img/aeu.PNG");
   background-size: cover; /* Faz a imagem cobrir todo o espaço */
   background-position: center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
@@ -55,14 +55,7 @@
   animation: fadeInUp 1s ease-out forwards; /* Efeito de entrada */
 }
 
-.hero-sobre {
-  max-width: 700px; /* Largura máxima para a seção "sobre" */
-  line-height: 1.6; /* Melhorar legibilidade */
-  color: #e0e0e0; /* Cor de texto mais suave, consistente com o título */
-  opacity: 0; /* Inicia invisível para a animação */
-  animation: fadeInUp 1s ease-out 0.3s forwards; /* Efeito de entrada com atraso */
-  z-index: 2;
-}
+
 
 /* Keyframes para as animações */
 @keyframes floatImage {

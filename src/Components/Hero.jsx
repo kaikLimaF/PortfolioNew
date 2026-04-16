@@ -13,18 +13,7 @@ const Hero = () => {
           <p>Desenvolvedor Front-end | Criador de Experiências Digitais</p>
         </div>
       </div>
-      <div className="hero-sobre">
-        <h1>Sobre Mim</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-          saepe ut veritatis, ipsa assumenda doloribus illum eaque. Accusamus
-          aspernatur tenetur aut vel, voluptate deleniti maiores quas similique
-          mollitia nisi illo.
-        </p>
-        
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas obcaecati iusto unde! Obcaecati nemo animi, alias sed tempore dolor eius quod ex est deleniti non ab dignissimos suscipit totam quis.
-        </p>
-      </div>
+      
     </section>
   );
 };
